@@ -287,8 +287,7 @@ saved_lexeme = word; //Set the saved word
 }
 return(saved_token);
 }
-// Purpose: Check if the next token type matches the expected. Eat the token and return true. If
-it doesn't match return false with a syntax error.
+// Purpose: Check if the next token type matches the expected. Eat the token and return true. If it doesn't match return false with a syntax error.
 // Done by: Brandon Nguyen
 bool match(tokentype expected)
 {
